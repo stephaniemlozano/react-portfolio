@@ -1,0 +1,19 @@
+h1 {
+  margin: 20px 55px 10px 55px;
+}
+
+p {
+  margin: 5px 55px;
+}
+
+.home-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.home-col img {
+  margin: 15px;
+}

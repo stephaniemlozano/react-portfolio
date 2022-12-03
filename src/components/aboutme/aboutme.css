@@ -1,0 +1,12 @@
+div.col {
+  display: flex;
+}
+
+.aboutme-col p {
+  margin-top: 60px;
+}
+
+div.col img{
+  border-radius: 10px;
+  margin: 12px 5px 12px 45px;
+}

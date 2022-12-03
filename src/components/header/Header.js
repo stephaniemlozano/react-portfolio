@@ -9,7 +9,7 @@ const Header = () => {
           <Nav className='nav-link'>
             <img src="https://cdn-icons-png.flaticon.com/128/1752/1752970.png" alt="succulent" />
             <Nav.Link href='/'>Home </Nav.Link>
-            <Nav.Link href='/aboutus'>About Me </Nav.Link>
+            <Nav.Link href='/aboutme'>About Me </Nav.Link>
             <Nav.Link href='/resume'>Resume </Nav.Link>
             <Nav.Link href='/contact'>Contact </Nav.Link>
           </Nav>

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Edu+NSW+ACT+Foundation&family=Neucha&family=Patrick+Hand&display=swap');
 @import './components/header/header.css';
+@import './components/home/home.css';
+@import './components/aboutme/aboutme.css';
+@import './components/resume/resume.css';
+@import './components/contact/contact.css';
+@import './components/footer/footer.css';
 
 
 *,
@@ -11,6 +16,7 @@
 }
 
 body {
+  font-family: 'Patrick Hand', cursive;
   background-color: #fefae0;
   color: black;
 }
