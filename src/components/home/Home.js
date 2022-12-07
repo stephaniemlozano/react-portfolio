@@ -9,17 +9,17 @@ const Home = () => {
       <Container>
         <Row>
           <Col s={1} md={3} lg={6} className='home-col'>
-            <img src="https://images.pexels.com/photos/6079526/pexels-photo-6079526.jpeg" alt="succulent" width={250}/>
-            <img src="https://images.pexels.com/photos/6079526/pexels-photo-6079526.jpeg" alt="succulent" width={250}/>
-            <img src="https://images.pexels.com/photos/6079526/pexels-photo-6079526.jpeg" alt="succulent" width={250}/>
+            <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-400-334537205.jpg" alt="succulent" width={250}/>
+            <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-700-285987328.jpg" alt="succulent" width={250}/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtjX7FPC6ERWCqEvCrzIUwOuQoxVU2qcxjScmd56hk12Of3iTCf52GBnCiUCNjK-EXupE&usqp=CAU" alt="succulent" width={250}/>
             
-            <img src="https://images.pexels.com/photos/6079526/pexels-photo-6079526.jpeg" alt="succulent" width={250}/>
-            <img src="https://images.pexels.com/photos/6079526/pexels-photo-6079526.jpeg" alt="succulent" width={250}/>
-            <img src="https://images.pexels.com/photos/6079526/pexels-photo-6079526.jpeg" alt="succulent" width={250}/>
+            <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-decorative-flower-plant-isolated-icon-cacti-700-205074950.jpg" alt="succulent" width={250}/>
+            <img src="https://img.myloview.es/fotomurales/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-decorative-flower-plant-isolated-icon-cacti-700-248091514.jpg" alt="succulent" width={250}/>
+            <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-decorative-flower-plant-isolated-icon-cacti-400-229916970.jpg" alt="succulent" width={250}/>
       
-            <img src="https://images.pexels.com/photos/6079526/pexels-photo-6079526.jpeg" alt="succulent" width={250}/>
-            <img src="https://images.pexels.com/photos/6079526/pexels-photo-6079526.jpeg" alt="succulent" width={250}/>
-            <img src="https://images.pexels.com/photos/6079526/pexels-photo-6079526.jpeg" alt="succulent" width={250}/>
+            <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-decorative-flower-plant-isolated-icon-cacti-400-220276837.jpg" alt="succulent" width={250}/>
+            <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-decorative-flower-plant-isolated-icon-cacti-700-242150594.jpg" alt="succulent" width={250}/>
+            <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-700-303054138.jpg" alt="succulent" width={250}/>
           </Col>
         </Row>
       </Container>

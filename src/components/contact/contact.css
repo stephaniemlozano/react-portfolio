@@ -4,6 +4,7 @@
 
 .contact-img {
   border-radius: 100%;
+  border: 1px solid #54241c;
 }
 
 button {
@@ -20,8 +21,16 @@ button {
 
 button:hover {
   cursor: pointer;
-
+  color: white;
+  border: 1px solid #a5bb49;
+  background-color: #a5bb49;
+  text-transform: uppercase;
+  font-family: 'Neucha', cursive;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
 

@@ -13,7 +13,7 @@ const AboutMe = () => {
               a criminal justice and security nerd, and a Software
               Engineer. I can talk about serial killers and fingerprinting long
               enough to creep most people out. I love anything investigative and
-              thrive when given a problem to solve.
+              thrive when given a problem to solve. 
               <br />
               At work, I am known to be the person people go to with random
               questions even if it doesn't relate to my team. I may not have
@@ -22,7 +22,9 @@ const AboutMe = () => {
               building up a team through positivity. I may bring a bit of
               weirdness but I promise I will get the job done.
               <br />
-              Mentorship is important to me. I enjoy having someone invested in my personal/professional growth. I also enjoy providing mentorship and helping others along their journey.
+              Mentorship is important to me. I enjoy having someone invested in my personal/professional growth. I also enjoy providing mentorship and helping others along their journey. 
+              <br />
+              As long as you're growing you're going in the right direction. 🪴
             </p>
           </Col>
         </Row>
