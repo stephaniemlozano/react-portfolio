@@ -1,9 +1,31 @@
 h1 {
   margin: 20px 55px 10px 55px;
+  font-size: 40px;
+}
+
+.home-animation {
+  overflow: hidden;
+  border-right: 1px solid black;
+  white-space: nowrap;
+  margin: 20px auto 10px;
+  letter-spacing: .5px;
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0; }
+    to { width: 80% ;}
+  }
+
+@keyframes blink-caret {
+  from, to { border-color: transparent;}
+  50% { border-color: black;}
 }
 
 p {
   margin: 5px 55px;
+  font-size: 18px;
 }
 
 .home-col {

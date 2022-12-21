@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Home = () => {
   return (
     <div>
-      <h1>Hi, I'm Stephanie.</h1>
+      <h1 className='home-animation'>Hi, I'm Stephanie.</h1>
       <p>Like succulents, I flourish in difficult circumstances.</p>
       <p>A succulent symbolizes strength and endurance. It is a reminder that even the most challenging situation is not the end, it is just a hurdle to overcome.</p>
       <Container>
