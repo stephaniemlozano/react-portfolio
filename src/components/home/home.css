@@ -5,27 +5,23 @@ h1 {
 
 .home-animation {
   overflow: hidden;
-  border-right: 1px solid black;
+  border-right: .15em ridge #a5bb49;
   white-space: nowrap;
-  margin: 20px auto 10px;
-  letter-spacing: .5px;
-  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+  margin: 20px auto 10px 55px;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  animation: typing 8s forwards;
 }
 
 @keyframes typing {
-  from {
-    width: 0; }
-    to { width: 80% ;}
+    from {width: 0; }
+    to { width: 30% }
   }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent;}
-  50% { border-color: black;}
-}
 
 p {
   margin: 5px 55px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .home-col {
@@ -38,4 +34,47 @@ p {
 
 .home-col img {
   margin: 15px;
+}
+
+.home-card {
+  position: relative;
+  margin: auto;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #fefae0;
+  perspective: 1000px; 
+}
+
+.home-innercard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.home-card:hover .home-innercard {
+  transform: rotateY(180deg);
+}
+
+.home-flipfront, .home-flipback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.home-flipfront {
+  background-color: #fefae0;
+  color: white;
+}
+
+.home-flipback {
+  background-color: #a5bb49;
+  color: white;
+  transform: rotateY(180deg);
+  height: 300px;
 }

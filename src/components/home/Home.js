@@ -9,7 +9,18 @@ const Home = () => {
       <Container>
         <Row>
           <Col s={1} md={3} lg={6} className='home-col'>
-            <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-400-334537205.jpg" alt="succulent" width={250}/>
+            <div className='home-card'>
+              <div className='home-innercard'>
+                <div className='home-flipfront'>
+                  <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-400-334537205.jpg" alt="succulent" width={250}/>
+                </div>
+                <div className='home-flipback'>
+                  <br />
+                  <h2>test</h2>
+                </div>
+              </div>
+            </div>
+
             <img src="https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-700-285987328.jpg" alt="succulent" width={250}/>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtjX7FPC6ERWCqEvCrzIUwOuQoxVU2qcxjScmd56hk12Of3iTCf52GBnCiUCNjK-EXupE&usqp=CAU" alt="succulent" width={250}/>
             
