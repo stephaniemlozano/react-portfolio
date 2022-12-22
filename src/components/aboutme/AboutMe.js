@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div>
       <Container>
-        <Row>
+        <Row xs={1} md={4} lg={6}>
             <h1>About Me</h1>
           <Col className='aboutme-col'>
             <img src='https://www.bocacode.com/assets/images/candidates/stephanie-sadowski.jpg' alt='stephanie sadowski' width={375}/>

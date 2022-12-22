@@ -10,12 +10,12 @@ h1 {
   margin: 20px auto 10px 55px;
   font-size: 3rem;
   letter-spacing: 1px;
-  animation: typing 8s forwards;
+  animation: typing 7s forwards;
 }
 
 @keyframes typing {
     from {width: 0; }
-    to { width: 30% }
+    to { width: 100% }
   }
 
 
