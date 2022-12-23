@@ -1,0 +1,9 @@
+.resume {
+  text-align: center;
+  font-size: 20px;
+}
+
+.resume img {
+  display: block;
+  margin: 15px auto;
+}
