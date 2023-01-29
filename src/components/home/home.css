@@ -78,3 +78,16 @@ p {
   transform: rotateY(180deg);
   height: 300px;
 }
+
+.home-flipback a {
+  font-size: 25px;
+  color: white;
+}
+
+.home-flipback img {
+  height: 200px;
+  width: 200px;
+}
+.home-flipback a:hover {
+  color: rgba(72, 69, 69, 0.836);
+}

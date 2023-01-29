@@ -29,7 +29,8 @@ const Home = () => {
                 </div>
                 <div className='home-flipback'>
                   <br />
-                  <h2>More to come...</h2>
+                  <a href="https://tiredmamabookclub-ss.web.app/" target="_blank" rel='noreferrer'>Tired Mama Book Club</a>
+                  <img src="https://stephanie-buckette.s3.amazonaws.com/IMG_8264.jpeg" alt="tired mama book club logo" width={200} />
                 </div>
               </div>
             </div>
@@ -40,7 +41,8 @@ const Home = () => {
                 </div>
                 <div className='home-flipback'>
                   <br />
-                  <h2>More to come...</h2>
+                  <a href="http://forthekids-ss.s3-website-us-east-1.amazonaws.com/" target="_blank" rel='noreferrer'>For the Kids</a>
+                  <img src="https://forthekids-ss.s3.amazonaws.com/ftk.jpg" alt="for the kids logo"/>
                 </div>
               </div>
             </div>
@@ -51,7 +53,8 @@ const Home = () => {
                 </div>
                 <div className='home-flipback'>
                   <br />
-                  <h2>More to come...</h2>
+                  <a href="https://myhobbiesweb-ss.web.app/index.html" target='_blank' rel='noreferrer'>Hobbies HTML Website</a>
+                  <img src="https://stephanie-buckette.s3.amazonaws.com/HobbiesHTML" alt="hobbies website screenshot"/>
                 </div>
               </div>
             </div>
@@ -62,7 +65,8 @@ const Home = () => {
                 </div>
                 <div className='home-flipback'>
                   <br />
-                  <h2>More to come...</h2>
+                  <a href="https://web-portfolio-ss.web.app/" target='_blank' rel='noreferrer'>HTML Portfolio</a>
+                  <img src="https://stephanie-buckette.s3.amazonaws.com/HTMLPortfolioSnip" alt="portfolio html screenshot"/>
                 </div>
               </div>
             </div>
@@ -73,7 +77,7 @@ const Home = () => {
                 </div>
                 <div className='home-flipback'>
                   <br />
-                  <h2>More to come...</h2>
+                  <a href="https://date-clock-ss.web.app/" target='_blank' rel='noreferrer'>Date, Time, Relax HTML</a>
                 </div>
               </div>
             </div>
@@ -84,7 +88,8 @@ const Home = () => {
                 </div>
                 <div className='home-flipback'>
                   <br />
-                  <h2>More to come...</h2>
+                  <a href="https://grad-countdown-ss.web.app/" target='_blank' rel='noreferrer'>Graduation Countdown</a>
+                  <img src="https://grad-countdown-ss.web.app/grad.gif" alt="graduate jumping with confetti" />
                 </div>
               </div>
             </div>
@@ -95,7 +100,7 @@ const Home = () => {
                 </div>
                 <div className='home-flipback'>
                   <br />
-                  <h2>More to come...</h2>
+                  <a href="https://trivia-game-ss.web.app/" target='_blank' rel='noreferrer'>Trivia Game</a>
                 </div>
               </div>
             </div>
