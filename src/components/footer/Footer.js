@@ -1,8 +1,11 @@
-
 const Footer = () => {
+  const copyrightDate = () => {
+    return new Date().getFullYear()
+  }
+
   return (
     <div className="footer">
-      <small>Copyright © 2022 | All rights reserved 🪴</small>
+      <small>Copyright © {copyrightDate()} | All rights reserved 🪴</small>
     </div>
   )
 }

@@ -6,22 +6,29 @@ h1 {
 .home-animation {
   overflow: hidden;
   border-right: .15em ridge #a5bb49;
+  margin-left: 110px;
   white-space: nowrap;
-  margin: 20px auto 10px 55px;
-  font-size: 3rem;
+  font-size: 50px;
   letter-spacing: 1px;
-  animation: typing 7s forwards;
+  animation: typing 8s forwards;
 }
 
 @keyframes typing {
     from {width: 0; }
-    to { width: 100% }
+    to { width: 65% }
   }
 
 
 p {
   margin: 5px 55px;
   font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight:bolder;
+  margin: 20px auto;
 }
 
 .home-col {
@@ -34,11 +41,13 @@ p {
 
 .home-col img {
   margin: 15px;
+  border-radius: 10px;
+  border: 1px solid #94a449;
 }
 
 .home-card {
   position: relative;
-  margin: auto;
+  margin: 10px;
   background-color: transparent;
   width: 300px;
   height: 300px;
@@ -53,10 +62,12 @@ p {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  border-radius: 10px;
 }
 
 .home-card:hover .home-innercard {
   transform: rotateY(180deg);
+  cursor: pointer;
 }
 
 .home-flipfront, .home-flipback {
@@ -65,6 +76,8 @@ p {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 3px 4px 3px rgb(88, 86, 86);
 }
 
 .home-flipfront {
@@ -77,6 +90,7 @@ p {
   color: white;
   transform: rotateY(180deg);
   height: 300px;
+  border: 1px solid #94a449;
 }
 
 .home-flipback a {
