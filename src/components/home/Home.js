@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
+import { TypeAnimation } from 'react-type-animation'
 
 const Home = () => {
   const images = [
@@ -14,10 +15,38 @@ const Home = () => {
   ]
 
   
-
   return (
     <div>
-      <h1 className='home-animation'>Hi, I'm Stephanie.</h1>
+      <h1>Hi, I'm Stephanie!</h1>
+      <TypeAnimation 
+        sequence={[
+          "Wife & girl mama.",
+          "Software Engineer.",
+          "Always laughing.",
+          "CSS lover",
+          "Dedicated.",
+          "True crime obsessed.",
+          "Detail oriented.",
+          "Organized.",
+          "Dog mom.",
+          "Creative.",
+          "Problem solver.",
+          "Fun coworker.",
+          "Crazy cat lady.",
+          "Solution oriented.",
+          "Tired mama & book lover.",
+          "Here to learn.",
+          "Active listener.",
+          "Leader.",
+          "Always ready to help.",
+          () => console.log('Done.')
+        ]}
+        wrapper = 'h1'
+        cursor = {true}
+        repeat = {Infinity}
+        speed = '25'
+        style = {{ fontSize: '30px', color: '#a5bb49' }}
+      />
       <p>
         Like succulents, I flourish in difficult circumstances.
         <br />
@@ -29,7 +58,7 @@ const Home = () => {
         <br />
         it is just a hurdle to overcome.
       </p>
-      <h2>Flip a card and check out some of my projects.</h2>
+      <h2 id='projectflip'>Flip a card and check out some of my projects.</h2>
       <Container>
         <Row>
           <Col s={1} md={3} lg={6} className='home-col'>
