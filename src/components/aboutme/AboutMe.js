@@ -26,7 +26,7 @@ const AboutMe = () => {
           'Crazy cat lady.',
           'Solution oriented.',
           'Tired mama & book lover.',
-          'Here to learn.',
+          'Eager to learn.',
           'Active listener.',
           'Leader.',
           'Always ready to help.',
