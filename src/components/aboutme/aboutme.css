@@ -9,8 +9,8 @@
   align-content: center;
 }
 
-.aboutme-p {
+.aboutme-p p {
   margin: 10px 100px;
   font-size: 20px;
-  text-align: center;
+  text-align: justify;
 }

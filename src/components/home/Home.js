@@ -14,38 +14,30 @@ const Home = () => {
     'https://img.myloview.es/posters/cactus-and-succulent-in-pot-domestic-colorful-cartoon-vector-illustration-700-303054138.jpg',
   ]
 
-  
   return (
     <div>
       <h1>Hi, I'm Stephanie!</h1>
-      <TypeAnimation 
+      <TypeAnimation
         sequence={[
-          "Wife & girl mama.",
-          "Software Engineer.",
-          "Always laughing.",
-          "CSS lover",
-          "Dedicated.",
-          "True crime obsessed.",
-          "Detail oriented.",
-          "Organized.",
-          "Dog mom.",
-          "Creative.",
-          "Problem solver.",
-          "Fun coworker.",
-          "Crazy cat lady.",
-          "Solution oriented.",
-          "Tired mama & book lover.",
-          "Eager to learn.",
-          "Active listener.",
-          "Leader.",
-          "Always ready to help.",
-          () => console.log('Done.')
+          'Wife & girl mama.',
+          'Software Engineer.',
+          'CSS lover',
+          'True crime obsessed.',
+          'Detail oriented.',
+          'Organized.',
+          'Problem solver.',
+          'Fun coworker.',
+          'Solution oriented.',
+          'Eager to learn.',
+          'Leader.',
+          'Always ready to help.',
+          () => console.log('Done.'),
         ]}
-        wrapper = 'h1'
-        cursor = {true}
-        repeat = {Infinity}
-        speed = '25'
-        style = {{ fontSize: '30px', color: '#a5bb49' }}
+        wrapper='h1'
+        cursor={true}
+        repeat={Infinity}
+        speed='25'
+        style={{ fontSize: '30px', color: '#a5bb49' }}
       />
       <p>
         Like succulents, I flourish in difficult circumstances.
@@ -75,12 +67,12 @@ const Home = () => {
                     rel='noreferrer'
                   >
                     Tired Mama Book Club
+                    <img
+                      src='https://stephanie-buckette.s3.amazonaws.com/IMG_8264.jpeg'
+                      alt='tired mama book club logo'
+                      width={200}
+                    />
                   </a>
-                  <img
-                    src='https://stephanie-buckette.s3.amazonaws.com/IMG_8264.jpeg'
-                    alt='tired mama book club logo'
-                    width={200}
-                  />
                 </div>
               </div>
             </div>
@@ -97,32 +89,11 @@ const Home = () => {
                     rel='noreferrer'
                   >
                     For the Kids
+                    <img
+                      src='https://forthekids-ss.s3.amazonaws.com/ftk.jpg'
+                      alt='for the kids logo'
+                    />
                   </a>
-                  <img
-                    src='https://forthekids-ss.s3.amazonaws.com/ftk.jpg'
-                    alt='for the kids logo'
-                  />
-                </div>
-              </div>
-            </div>
-            <div className='home-card'>
-              <div className='home-innercard'>
-                <div className='home-flipfront'>
-                  <img src={images[2]} alt='succulent' width={250} />
-                </div>
-                <div className='home-flipback'>
-                  <br />
-                  <a
-                    href='https://myhobbiesweb-ss.web.app/index.html'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    Hobbies HTML Website
-                  </a>
-                  <img
-                    src='https://stephanie-buckette.s3.amazonaws.com/HobbiesHTML'
-                    alt='hobbies website screenshot'
-                  />
                 </div>
               </div>
             </div>
@@ -139,27 +110,49 @@ const Home = () => {
                     rel='noreferrer'
                   >
                     HTML Portfolio
+                    <img
+                      src='https://stephanie-buckette.s3.amazonaws.com/HTMLPortfolioSnip'
+                      alt='portfolio html screenshot'
+                    />
                   </a>
-                  <img
-                    src='https://stephanie-buckette.s3.amazonaws.com/HTMLPortfolioSnip'
-                    alt='portfolio html screenshot'
-                  />
                 </div>
               </div>
             </div>
             <div className='home-card'>
               <div className='home-innercard'>
                 <div className='home-flipfront'>
-                  <img src={images[4]} alt='succulent' width={250} />
+                  <img src={images[2]} alt='succulent' width={250} />
                 </div>
                 <div className='home-flipback'>
                   <br />
                   <a
-                    href='https://date-clock-ss.web.app/'
+                    href='https://myhobbiesweb-ss.web.app/index.html'
                     target='_blank'
                     rel='noreferrer'
                   >
-                    Date, Time, Relax HTML
+                    Hobbies HTML Website
+                    <img
+                      src='https://stephanie-buckette.s3.amazonaws.com/HobbiesHTML'
+                      alt='hobbies website screenshot'
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className='home-card'>
+              <div className='home-innercard'>
+                <div className='home-flipfront'>
+                  <img src={images[6]} alt='succulent' width={250} />
+                </div>
+                <div className='home-flipback'>
+                  <br />
+                  <a
+                    href='https://trivia-game-ss.web.app/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    Trivia Game
+                    <img src="https://stephanie-buckette.s3.amazonaws.com/trivia.png" alt="trivia game snapshot"  width={250}/>
                   </a>
                 </div>
               </div>
@@ -177,11 +170,11 @@ const Home = () => {
                     rel='noreferrer'
                   >
                     Graduation Countdown
+                    <img
+                      src='https://grad-countdown-ss.web.app/grad.gif'
+                      alt='graduate jumping with confetti'
+                    />
                   </a>
-                  <img
-                    src='https://grad-countdown-ss.web.app/grad.gif'
-                    alt='graduate jumping with confetti'
-                  />
                 </div>
               </div>
             </div>
@@ -197,7 +190,8 @@ const Home = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    Trivia Game
+                    Take a look at my GitHub!
+                    <img src="https://stephanie-buckette.s3.amazonaws.com/git.png" alt="github profile"/>
                   </a>
                 </div>
               </div>
@@ -208,8 +202,17 @@ const Home = () => {
                   <img src={images[7]} alt='succulent' width={250} />
                 </div>
                 <div className='home-flipback'>
-                  <br />
-                  <h2>More to come...</h2>
+                  <h2>Check out my resume!</h2>
+                  <a
+                    href='https://stephanie-buckette.s3.amazonaws.com/resume2.png'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img
+                      src='https://stephanie-buckette.s3.amazonaws.com/resume2.png'
+                      alt='resume'
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -219,8 +222,12 @@ const Home = () => {
                   <img src={images[8]} alt='succulent' width={250} />
                 </div>
                 <div className='home-flipback'>
-                  <br />
-                  <h2>More to come...</h2>
+                  <h2>Let's Connect on LinkedIn!</h2>
+                  <img
+                    src='https://media.licdn.com/dms/image/C4E03AQElIPCAuB9_wA/profile-displayphoto-shrink_800_800/0/1654572800559?e=1682553600&v=beta&t=bQoFaRe8UAW9niBSOxSxbTId7Yx3TWb9a9cRFj6nejY'
+                    alt='stephanie sadowski'
+                    className='contact-img'
+                  />
                 </div>
               </div>
             </div>
